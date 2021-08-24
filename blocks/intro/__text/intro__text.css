@@ -9,3 +9,10 @@
   text-align: left;
   line-height: 26px;
 }
+
+
+@media (max-width: 320px) {
+  .intro__text {
+    padding-bottom: 34px;
+  }
+}

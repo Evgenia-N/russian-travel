@@ -4,5 +4,27 @@
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+    padding: 28px 48px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
+    padding: 28px 24px 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    padding-top: 16px;
+    padding: 28px 16px 48px;
+  }
 }

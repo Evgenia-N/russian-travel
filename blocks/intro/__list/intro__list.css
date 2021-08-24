@@ -10,3 +10,15 @@
   line-height: 18px;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .intro__list {
+    padding-bottom: 88px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__list {
+    padding-bottom: 64px;
+  }
+}
