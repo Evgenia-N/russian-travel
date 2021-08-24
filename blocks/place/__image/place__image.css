@@ -8,13 +8,19 @@
   }
 }
 
+@media (max-width: 920px) {
+  .place__image {
+    max-width: 380px;
+  }
+}
+
 @media (max-width: 768px) {
   .place__image {
     max-width: 340px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 340px) {
   .place__image {
     max-width: 320px;
   }

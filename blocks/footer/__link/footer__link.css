@@ -15,7 +15,15 @@
 }
 
 .footer__link:hover {
-  opacity: 0.5
+  opacity: .5
+}
+
+@media (max-width: 680px) {
+  .footer__link {
+    font-size: 10px;
+    line-height: 10px;
+    padding-right: 6px;
+  }
 }
 
 @media (max-width: 320px) {

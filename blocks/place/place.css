@@ -17,9 +17,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 920px) {
   .place {
-    max-width: 720px;
+    max-width: 880px;
     grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
   }
   .place:last-child {

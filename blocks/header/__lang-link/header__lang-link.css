@@ -8,7 +8,7 @@
 }
 
 .header__lang-link:hover {
-  text-decoration: underline;
+  opacity: .5;
 }
 
 .header__lang-link:last-of-type {

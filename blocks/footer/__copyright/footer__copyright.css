@@ -8,6 +8,13 @@
   text-align: right;
 }
 
+@media (max-width: 680px) {
+  .footer__copyright {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
 @media (max-width: 320px) {
   .footer__copyright {
     text-align: left;
