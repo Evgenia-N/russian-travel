@@ -11,13 +11,13 @@
 
 @media (max-width: 1024px) {
   .place__title {
-    max-width: calc(100% - 32px);
+    max-width: 440px;
   }
 }
 
-@media (max-width: 915px) {
+@media (max-width: 924px) {
   .place__title {
-    max-width: calc(100% - 28px);
+    max-width: 330px;
     font-size: 42px;
     line-height: 46px;
   }
