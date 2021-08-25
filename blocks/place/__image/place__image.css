@@ -28,12 +28,6 @@
 
 @media (max-width: 767px) {
   .place__image {
-    max-width: 90%;
-  }
-}
-
-@media (max-width: 320px) {
-  .place__image {
-    max-width: 320px;
+    max-width: 100%;
   }
 }
