@@ -9,15 +9,21 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place__paragraph {
-    max-width: 352px;
+    max-width: 90%;
   }
 }
 
-@media (max-width: 352px) {
+@media (max-width: 768px) {
   .place__paragraph {
-    max-width: 320px;
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 767px) {
+  .place__paragraph {
+    max-width: 90%;
   }
 }
 

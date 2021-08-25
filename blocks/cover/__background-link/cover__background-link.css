@@ -25,6 +25,7 @@
 
 .cover__background-link:hover::after {
   opacity: .8;
+  transition: opacity .5s ease;
 }
 
 @media (max-width: 1024px) {
