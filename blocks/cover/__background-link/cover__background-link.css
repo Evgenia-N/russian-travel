@@ -5,12 +5,10 @@
   max-height: 100%;
   background-image: url('../../../images/cover-trains.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   text-decoration: none;
   z-index: 0;
-  padding-top: 245px;
-  padding-bottom: 245px;
 }
 
 .cover__background-link::after {
@@ -34,7 +32,6 @@
   .cover__background-link {
     max-width: 1024px;
     max-height: 640px;
-    padding: 195px 0;
   }
 }
 
@@ -42,7 +39,6 @@
   .cover__background-link {
     max-width: 768px;
     max-height: 480px;
-    padding: 115px 0;
   }
 }
 
@@ -50,6 +46,5 @@
   .cover__background-link {
     max-width: 320px;
     max-height: 200px;
-    padding: 33px 0;
   }
 }
